@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="button_width">264dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_touch_target_height">48dp</dimen>
+    <dimen name="buttons_margin">8dp</dimen>
+    <dimen name="screen_text">24sp</dimen>
+    <dimen name="title_margin_top">16dp</dimen>
+    <dimen name="title_margin_bottom">24dp</dimen>
+    <dimen name="about_text_margin">16dp</dimen>
+</resources>

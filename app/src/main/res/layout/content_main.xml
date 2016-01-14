@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.squirrel.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/title_margin_bottom"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/title_text"
+        android:textSize="@dimen/screen_text"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_linear_layout"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/spotify_launch_button"
+            style="@style/AppButton"
+            android:text="@string/spotify_button_text"/>
+
+        <Button
+            android:id="@+id/scores_launch_button"
+            style="@style/AppButton"
+            android:text="@string/scores_app_text"/>
+
+        <Button
+            android:id="@+id/library_launch_button"
+            style="@style/AppButton"
+            android:text="@string/library_app_text"/>
+
+        <Button
+            android:id="@+id/build_it_bigger_launch_button"
+            style="@style/AppButton"
+            android:text="@string/build_it_button_text"/>
+
+        <Button
+            android:id="@+id/reader_launch_button"
+            style="@style/AppButton"
+            android:text="@string/xyz_button_text"/>
+
+        <Button
+            android:id="@+id/capstone_launch_button"
+            style="@style/AppButton"
+            android:text="@string/capstone_button_text"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
